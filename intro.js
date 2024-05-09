@@ -35,3 +35,6 @@ pricee = 200;
 
 var carame = "Volvo";
 var carame;   //valid but not valid for const
+
+let x = "John" + " " + "Doe"; // concatenation of string
+
