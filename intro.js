@@ -27,4 +27,11 @@ console.log(bird.species); // "Kestrel"
 bird.species = "Striated Caracara";
 console.log(bird.species); // "Striated Caracara"
 
+let person = "John Doe", carName = "Volvo", price = 200;
 
+let man = "John Doe",
+nameCar = "Volvo",
+pricee = 200;
+
+var carame = "Volvo";
+var carame;   //valid but not valid for const
