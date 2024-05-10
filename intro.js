@@ -1,4 +1,4 @@
-let myCat = "zaytoon";
+let myCat = "zaytoon";  //declaring and intializing a variable
 myCat = "bobi";
 let myAge = 24;
 
@@ -47,3 +47,34 @@ let x = 250;
     let y = 40.5;
     console.log("Value of x=" + x);
     console.log("Value of y=" + y);
+
+    let str = "hello mey";
+    let str1 = "how is life treating you?";
+    console.log("value of str=" + str);
+    console.log("value of str1=" + str1)
+    
+    // bigint = operation on large numbers
+    let bigNum = 123422222222222222222222222222222222222n
+console.log(bigNum);
+
+// create a generic object
+let obj = new Object();
+// user defined object
+let myCatt = new Cat();
+
+// Creating object with the name person
+let personn = {
+    firstName: "hikma",
+    lastName: "tsegaye",
+};
+
+// Print the value of object on console
+console.log(person.firstName  + "  " + person.lastName);
+
+// Call it with numeric argument
+let a = new Array();
+    let b = new Array(10);
+    let d = new Array(1, 2, 3, "Hello");
+    console.log("value of a=" + a);
+    console.log("value of b" + b);
+    console.log("value of d=" + d);
