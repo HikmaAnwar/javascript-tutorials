@@ -4,7 +4,8 @@
     
      document.getElementById("demo").innerHTML = carName;
 
-     let shoppingDone = false;
+     
+let shoppingDone = false;
 let childAllowance;
 
 if(shoppingDone == true){
@@ -39,7 +40,7 @@ const para = document.querySelector("p");
 select.addEventListener("change", setWeather);
 
 function setWeather() {
-  const choice = select.value;
+  const choice = select.value; //set a variable called choice to the current value selected in the <select> element.
 
   if (choice === "sunny") {
     para.textContent =
