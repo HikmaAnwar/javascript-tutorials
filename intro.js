@@ -38,3 +38,6 @@ var carame;   //valid but not valid for const
 
 let x = "John" + " " + "Doe"; // concatenation of string
 
+let $ = "Hello World";
+let $$$ = 2;
+let $myMoney = 5;
