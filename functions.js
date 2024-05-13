@@ -18,3 +18,13 @@ displayPI();
 // Output:
 // Hello World!
 // PI = 3.14
+
+// function with a parameter called 'name'
+function greeet(name){
+    // console.log('hello' ${name})
+    console.log('hello' + name)
+}
+
+// pass argument to the function
+greeet(hikma);
+// Output: Hello hikma
