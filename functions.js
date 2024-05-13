@@ -30,15 +30,15 @@ greeet("hikma");
 // Output: Hello hikma
 
 // passing different argument(value) to parameter(placeholder)
-function greet(name) {
+function greet1(name) {
     console.log(`Hello ${name}`);
 }
 
 // pass "bopti" as argument
-greet("bopti");
+greet1("bopti");
 
 // pass "donny" as argument
-greet("donny");
+greet1("donny");
 // output 
 // hello bopti
 // hello donny
