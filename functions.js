@@ -40,5 +40,5 @@ greet("bopti");
 // pass "David" as argument
 greet("donny");
 // output 
-// bopti
-// donny
+// hello bopti
+// hello donny
