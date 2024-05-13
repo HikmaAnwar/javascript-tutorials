@@ -21,10 +21,24 @@ displayPI();
 
 // function with a parameter called 'name'
 function greeet(name){
-    // console.log('hello' ${name})
-    console.log('hello' + name)
+    //  console.log('hello' ${name});
+     console.log('hello'+  name);
 }
 
 // pass argument to the function
-greeet(hikma);
+greeet("hikma");
 // Output: Hello hikma
+
+// passing different argument(value) to parameter(placeholder)
+function greet(name) {
+    console.log(`Hello ${name}`);
+}
+
+// pass "John" as argument
+greet("bopti");
+
+// pass "David" as argument
+greet("donny");
+// output 
+// bopti
+// donny
