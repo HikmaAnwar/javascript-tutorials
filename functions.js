@@ -46,7 +46,7 @@ greet1("donny");
 // function with two arguments
 function addNumbers(num1, num2) {
     let sum = num1 + num2;
-   console.log(`Sum: ${sum}`);
+   console.log(`Sum:` + sum);
 }
 
 // call function by passing two arguments
