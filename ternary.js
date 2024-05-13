@@ -12,3 +12,5 @@ function update(bgColor, textColor) {
       ? update("black", "white")
       : update("white", "black"),
   );
+
+  
