@@ -34,10 +34,10 @@ function greet(name) {
     console.log(`Hello ${name}`);
 }
 
-// pass "John" as argument
+// pass "bopti" as argument
 greet("bopti");
 
-// pass "David" as argument
+// pass "donny" as argument
 greet("donny");
 // output 
 // hello bopti
