@@ -22,7 +22,8 @@ displayPI();
 // function with a parameter called 'name'
 function greeet(name){
     //  console.log('hello' ${name});
-     console.log('hello'+  name);
+    console.log(`Hello ${name}`);
+     console.log('hello ${name}');
 }
 
 // pass argument to the function
@@ -46,7 +47,7 @@ greet1("donny");
 // function with two arguments
 function addNumbers(num1, num2) {
     let sum = num1 + num2;
-   console.log(`Sum:` + sum);
+   console.log(`Sum: ` + sum);
 }
 
 // call function by passing two arguments
@@ -54,3 +55,13 @@ addNumbers(5, 4);
 
 // Output:
 // Sum: 9
+
+// function for finding a sqaure of number
+function findSquare(num_1){
+
+    return num_1 * num_1;
+
+}
+
+let result = findSquare(3);
+console.log("sqaure = " + result);
