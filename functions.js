@@ -89,3 +89,15 @@ let sqaure_1 = function find1Sqaure(numm){
 };
 
 console.log( sqaure_1(3) );
+
+// Arrow function
+function add_1(a,b){
+    return a + b;
+}
+// is the same as arrow fuction below
+ let add = (a, b) => a + b
+
+//  another function
+let isPositive = (Number) => Number >= 0
+
+//continues 
