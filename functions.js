@@ -70,6 +70,8 @@ console.log("sqaure = " + sqaure);
 let sqaureRoot = Math.sqrt(16);
 console.log("The sqaure root of 16 is = ", sqaureRoot);
 
+
+
 // Math.pow() computes the power
 let power = Math.pow(2, 3);
 console.log("2 to the power of 3 is =", power);
