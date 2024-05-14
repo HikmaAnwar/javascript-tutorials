@@ -123,3 +123,26 @@ document.addEventListener('click', function(){
 // another arrow function
 document.addEventListener('click', () => console.log('click'))
 
+
+// last example for arrow function
+class person {
+    constructor(namee){
+        this.namee = namee
+    }
+
+    printNameArrow() {
+        setTimeout(() => {
+            console.log('Arrow:' + this.namee)
+        }, 100)
+    }
+
+    printNameFuction(){
+        setTimeout(function() {
+            console.log('function:' + this.namee)}, 100)
+    }
+}
+
+let person = new person('bopti')
+person.printNameArrow()
+person.printNameFuction()
+console.log(this.namee)
