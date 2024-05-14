@@ -88,4 +88,4 @@ let sqaure_1 = function find1Sqaure(numm){
     return numm * numm;
 };
 
-console.log("the sqrt of 9 is = ", sqaure_1(3) );
+console.log( sqaure_1(3) );
