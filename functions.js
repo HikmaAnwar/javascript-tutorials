@@ -90,6 +90,8 @@ let sqaure_1 = function find1Sqaure(numm){
 
 console.log( sqaure_1(3) );
 
+
+
 // Arrow function
 function add_1(a,b){
     return a + b;
@@ -97,7 +99,27 @@ function add_1(a,b){
 // is the same as arrow fuction below
  let add = (a, b) => a + b
 
+
+
 //  another function with a single argument so the barces can be removed
 let isPositive = Number => Number >= 0
 // let isPositive = (Number) => Number >= 0
+
+
+
 //continues 
+function randomNumber(){
+    return Math.random
+}
+let randomNumber = () => Math.random
+
+
+
+// function example
+document.addEventListener('click', function(){
+
+    console.log('click')
+})
+// another arrow function
+document.addEventListener('click', () => console.log('click'))
+
