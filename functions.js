@@ -149,4 +149,17 @@ console.log(this.namee)
 
 // output:
 // Arrow: bopti
-// function
+// function:
+
+// built in strings
+let stringOne = "Arrow functions do not have their own arguments object.";
+let stringTwo = "However, it's important to note that arrow functions also have limitations";
+
+console.log(stringOne.charAt(2))
+console.log(stringOne.charCodeAt(2))
+
+console.log(stringOne.endsWith('object'))
+// output: true
+
+console.log(stringTwo.includes('also'))
+
