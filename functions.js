@@ -146,3 +146,7 @@ let person = new person('bopti')
 person.printNameArrow()
 person.printNameFuction()
 console.log(this.namee)
+
+// output:
+// Arrow: bopti
+// function
