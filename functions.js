@@ -63,5 +63,5 @@ function findSquare(num_1){
 
 }
 
-let result = findSquare(3);
-console.log("sqaure = " + result);
+let sqaure = findSquare(3);
+console.log("sqaure = " + sqaure);
