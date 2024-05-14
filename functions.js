@@ -97,7 +97,7 @@ function add_1(a,b){
 // is the same as arrow fuction below
  let add = (a, b) => a + b
 
-//  another function
-let isPositive = (Number) => Number >= 0
-
+//  another function with a single argument so the barces can be removed
+let isPositive = Number => Number >= 0
+// let isPositive = (Number) => Number >= 0
 //continues 
