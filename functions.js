@@ -80,3 +80,12 @@ console.log("2 to the power of 3 is =", power);
 let band = "Iron Maiden";
 let bandUpper = band.toUpperCase();
 console.log(`Favorite Band: ${bandUpper}`);
+
+// function expression
+
+let sqaure_1 = function find1Sqaure(numm){
+
+    return numm * numm;
+};
+
+console.log("the sqrt of 9 is = ", sqaure_1(3) );
