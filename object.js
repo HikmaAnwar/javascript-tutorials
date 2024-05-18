@@ -138,4 +138,4 @@ console.log('vals ', vals);
 let entries = Object.entries(westeros);
 console.log('entries', entries);
 
-console.log('entries', entries[2][1])
+console.log( entries[2][1]);
