@@ -129,3 +129,11 @@ let westeros = {
 
 let keys = Object.keys(westeros);
 console.log('keys ' , keys);
+
+let vals = Object.values(westeros);
+console.log('vals ', vals);
+
+// both key and value
+
+let enteries = Object.entries(westeros);
+console.log('enteries', enteries);
