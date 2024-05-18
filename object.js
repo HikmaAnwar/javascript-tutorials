@@ -24,3 +24,24 @@ function showProps(obj, objName) {
     return result;
 }
 console.log(showProps(myCar, "myCar"));
+
+// creation: object intializzer
+var myHonda = {
+    color: "red", wheels: 4, engine: {
+        cylinder: 4, size: 2.2}
+    };
+
+    // creation: constructer fuction
+    function car(make, model, year){
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+
+    var yourCar = new car( "chevy", "malibu",1993);
+    var anotherCar = new car("mazda", "miata", 1990);
+    console.log(yourCar.model);
+    yourCar.color = "black";
+    
+
+    
