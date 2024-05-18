@@ -135,5 +135,7 @@ console.log('vals ', vals);
 
 // both key and value
 
-let enteries = Object.entries(westeros);
-console.log('enteries', enteries);
+let entries = Object.entries(westeros);
+console.log('entries', entries);
+
+console.log('entries', entries[2][1])
