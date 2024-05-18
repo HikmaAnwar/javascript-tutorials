@@ -111,3 +111,21 @@ console.log(ourStorage.cabinet["top drawer"].folder2);
 // generate an array of all objects keys
 
 console.log(Object.keys(ourStorage));
+
+// object.keys(obj)
+// object.values(obj)
+// object.enteries(obj)
+// create an iterable object from the object
+
+let westeros = {
+    cerse: 'lannister',
+    arya: 'stark',
+    jon: 'snow',
+    brienne: 'tarth',
+    jorah: 'grey'
+}
+// for(let prop of arr)
+    // foreach() filter() map() reduce()
+
+let keys = Object.keys(westeros);
+console.log('keys ' , keys);
