@@ -71,4 +71,18 @@ var alpha ={
 console.log(alpha[3]);
 
 
-// 
+// remove object properties
+
+let dishes = {
+    plates: 8,
+    cups: 10,
+    forks:39,
+    bowls: 15
+};
+
+
+delete dishes.cups;
+console.log(dishes);
+
+// testing objects for properties
+
