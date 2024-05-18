@@ -42,6 +42,6 @@ var myHonda = {
     var anotherCar = new car("mazda", "miata", 1990);
     console.log(yourCar.model);
     yourCar.color = "black";
-    
+    console.log(yourCar.color);
 
     
