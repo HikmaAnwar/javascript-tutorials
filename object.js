@@ -107,3 +107,7 @@ console.log(ourStorage.cabinet["top drawer"].folder2);
 console.log(ourStorage.desk.drawer);
 ourStorage.cabinet["top drawer"].folder2 = "cake recipe";
 console.log(ourStorage.cabinet["top drawer"].folder2);
+
+// generate an array of all objects keys
+
+console.log(Object.keys(ourStorage));
