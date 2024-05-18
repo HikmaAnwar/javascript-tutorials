@@ -52,10 +52,10 @@ var myHonda = {
         }
     }
 
-    var animal1 = object.create(Animal);
+    var animal1 = Object.create(Animal);
     animal1.displayType();
 
-    var fish = object.create(Animal);
+    var fish = Object.create(Animal);
     fish.type = "Fishes";
     fish.displayType();
 
