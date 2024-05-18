@@ -44,4 +44,19 @@ var myHonda = {
     yourCar.color = "black";
     console.log(yourCar.color);
 
+    // creation Object.create
+    var Animal = {
+        type: "Invertebrates",
+        displayType: function(){
+            console.log(this.type);
+        }
+    }
+
+    var animal1 = object.create(Animal);
+    animal1.displayType();
+
+    var fish = object.create(Animal);
+    fish.type = "Fishes";
+    fish.displayType();
+
     
