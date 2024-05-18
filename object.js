@@ -86,3 +86,7 @@ console.log(dishes);
 
 // testing objects for properties
 
+console.log(dishes.hasOwnProperty('plates'));
+console.log(dishes.hasOwnProperty('cups'));
+
+// 
