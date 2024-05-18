@@ -60,3 +60,15 @@ var myHonda = {
     fish.displayType();
 
     
+// object: part2 
+//  using Objects for lookups
+var alpha ={
+    1:"z",
+    2:"y",
+    3:"x"
+    4:"w"
+};
+console.log(alpha[3]);
+
+
+// 
